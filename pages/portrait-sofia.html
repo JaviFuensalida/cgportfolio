@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait - Sofia - Carlotta Gambato</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Serif:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">
+                <a href="../index.html">Carlotta Gambato</a>
+            </h1>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="nav-menu">
+        <ul class="nav-list">
+            <li><a href="wenu.html">Wenu</a></li>
+            <li><a href="../index.html">Ikigai</a></li>
+            <li><a href="dialoghi.html">Dialoghi</a></li>
+            <li><a href="chrysalis.html">Chrysalis</a></li>
+            <li class="has-submenu">
+                <a href="portrait.html">Portrait</a>
+                <ul class="submenu">
+                    <li><a href="portrait-sofia.html" class="active">Sofia</a></li>
+                    <li><a href="portrait-irina.html">Irina</a></li>
+                    <li><a href="portrait-chus.html">Chus</a></li>
+                </ul>
+            </li>
+            <li><a href="interior.html">Interior & Architecture</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="project-container">
+        <div class="navigation-controls">
+            <div class="navigation-controls-left">
+                <button class="prev-btn" aria-label="Previous">‹</button>
+                <span class="separator">/</span>
+                <button class="next-btn" aria-label="Next">›</button>
+            </div>
+            <button class="grid-toggle-btn" aria-label="Toggle Grid View"></button>
+        </div>
+
+        <div class="carousel-container">
+            <div class="project-gallery carousel">
+                <div class="project-image carousel-item active">
+                    <img src="../images/sofia-1.jpg" alt="Sofia Portrait 1" loading="lazy">
+                </div>
+                <div class="project-image carousel-item">
+                    <img src="../images/sofia-2.jpg" alt="Sofia Portrait 2" loading="lazy">
+                </div>
+                <div class="project-image carousel-item">
+                    <img src="../images/sofia-3.jpg" alt="Sofia Portrait 3" loading="lazy">
+                </div>
+                <div class="project-image carousel-item">
+                    <img src="../images/sofia-4.jpg" alt="Sofia Portrait 4" loading="lazy">
+                </div>
+            </div>
+            
+            <div class="carousel-indicators">
+                <span class="current-slide">1</span> / <span class="total-slides">4</span>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Carlotta Gambato. All rights reserved.</p>   
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

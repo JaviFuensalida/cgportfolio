@@ -1,0 +1,17 @@
+{
+  "name": "carlotta-gambato-portfolio",
+  "version": "1.0.0",
+  "description": "Photography portfolio website for Carlotta Gambato",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "photography",
+    "portfolio",
+    "carlotta-gambato"
+  ],
+  "author": "Carlotta Gambato",
+  "license": "MIT"
+}
