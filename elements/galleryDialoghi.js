@@ -5,16 +5,16 @@ export const galleryDialoghi = /*html*/ `
                     <img src="../images/dialoghi-1.jpg" alt="Dialoghi Project Image 1">
                 </div>
                 <div class="project-image carousel-item">
-                    <img src="../images/dialoghi-2.jpg" alt="Dialoghi Project Image 2">
+                    <img src="./images/dialoghi-2.jpg" alt="Dialoghi Project Image 2">
                 </div>
                 <div class="project-image carousel-item">
-                    <img src="../images/dialoghi-3.jpg" alt="Dialoghi Project Image 3">
+                    <img src="./images/dialoghi-3.jpg" alt="Dialoghi Project Image 3">
                 </div>
                 <div class="project-image carousel-item">
-                    <img src="../images/dialoghi-4.jpg" alt="Dialoghi Project Image 4">
+                    <img src="./images/dialoghi-4.jpg" alt="Dialoghi Project Image 4">
                 </div>
                 <div class="project-image carousel-item">
-                    <img src="../images/dialoghi-5.jpg" alt="Dialoghi Project Image 5">
+                    <img src="./images/dialoghi-5.jpg" alt="Dialoghi Project Image 5">
                 </div>
             </div>
     </div>`;
