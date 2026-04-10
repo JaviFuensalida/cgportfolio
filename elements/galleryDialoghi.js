@@ -17,4 +17,4 @@ export const galleryDialoghi = /*html*/ `
                     <img src="./images/dialoghi-5.jpg" alt="Dialoghi Project Image 5">
                 </div>
             </div>
-    </div>`;
+    </div>`; 
